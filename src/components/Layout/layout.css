@@ -1,0 +1,37 @@
+.sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-height: 100vh;
+	background-color: #133348;
+	padding: 48px 0 0;
+	width: 60px;
+}
+
+.topbar,
+.main-content {
+	margin-left: 60px;
+	padding: 20px;
+	position: relative;
+}
+
+.topbar {
+	background-color: #dadada;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.topbar .title {
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
+}
+.topbar .title::before {
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: purple;
+	border-radius: 50% 0 50% 50%;
+}

@@ -1,0 +1,16 @@
+.search {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	position: absolute;
+	top: -60px;
+	right: 1%;
+
+	input {
+		color: darkgray;
+		border: 1px solid #000;
+		border-radius: 5px;
+		height: 35px;
+		padding: 0 10px;
+	}
+}
